@@ -17,40 +17,40 @@ Let $X_1, \dots, X_n \sim \mathcal{N}(\mu, \sigma^2)$, significance level $\alph
 
 ### 1. One-sided z-test (known $\sigma^2$)
 
-- $H_0$: $\mu \leq \mu_0$,$H_1$: $\mu > \mu_0$
-- $Z = \dfrac{\bar{X}_n - \mu_0}{\sigma / \sqrt{n}} \sim \mathcal{N}(0,1)$
+- $H_0: \mu \leq \mu_0$, $H_1: \mu > \mu_0$
+- $Z = \frac{\bar{X}_n - \mu_0}{\sigma / \sqrt{n}} \sim \mathcal{N}(0,1)$
 - Reject if $Z > z_\alpha$
 
 ### 2. Two-sided z-test (known $\sigma^2$)
 
-- $H_0$: $\mu = \mu_0$,$H_1$: $\mu \neq \mu_0$
+- $H_0: \mu = \mu_0$, $H_1: \mu \neq \mu_0$
 - Reject if $|Z| > z_{\alpha/2}$
 
 ### 3. One-sided t-test (unknown $\sigma^2$)
 
-- $H_0$: $\mu \leq \mu_0$, $H_1$: $\mu > \mu_0$
-- $T = \dfrac{\bar{X}_n - \mu_0}{S / \sqrt{n}} \sim t_{n-1}$
+- $H_0: \mu \leq \mu_0$, $H_1: \mu > \mu_0$
+- $T = \frac{\bar{X}_n - \mu_0}{S / \sqrt{n}} \sim t_{n-1}$
 - Reject if $T > t_{n-1, \alpha}$
 
 ### 4. Two-sided t-test (unknown $\sigma^2$)
 
-- $H_0$: $\mu = \mu_0$,$H_1$: $\mu \neq \mu_0$
+- $H_0: \mu = \mu_0$, $H_1: \mu \neq \mu_0$
 - Reject if $|T| > t_{n-1, \alpha/2}$
 
 ### 5. One-sided $\chi^2$-test (variance)
 
-- $H_0$: $\sigma^2 \leq \sigma_0^2$,$H_1$: $\sigma^2 > \sigma_0^2$
-- $C = \dfrac{(n - 1) S^2}{\sigma_0^2} \sim \chi^2_{n - 1}$
+- $H_0$: $\sigma^2 \leq \sigma_0^2$, $H_1: \sigma^2 > \sigma_0^2$
+- $C = \frac{(n - 1) S^2}{\sigma_0^2} \sim \chi^2_{n - 1}$
 - Reject if $C > \chi^2_{n - 1, \alpha}$
 
 ### 6. Two-sided $\chi^2$-test (variance)
 
-- $H_0$: $\sigma^2 = \sigma_0^2$,$H_1$: $\sigma^2 \neq \sigma_0^2$
+- $H_0: \sigma^2 = \sigma_0^2$, $H_1: \sigma^2 \neq \sigma_0^2$
 - Reject if $C < \chi^2_{n - 1, 1 - \alpha/2}$ or $C > \chi^2_{n - 1, \alpha/2}$
 
 ### 7. Two-sample t-test (equal variances)
 
-- $H_0$: $\mu_X = \mu_Y$,$H_1$: $\mu_X \neq \mu_Y$
-- $T = \dfrac{\bar{X} - \bar{Y}}{S_p \sqrt{1/n_X + 1/n_Y}} \sim t_{n_X + n_Y - 2}$
-- $S_p^2 = \dfrac{(n_X - 1) S_X^2 + (n_Y - 1) S_Y^2}{n_X + n_Y - 2}$
+- $H_0: \mu_X = \mu_Y$, $H_1: \mu_X \neq \mu_Y$
+- $T = \frac{\bar{X} - \bar{Y}}{S_p \sqrt{1/n_X + 1/n_Y}} \sim t_{n_X + n_Y - 2}$
+- $S_p^2 = \frac{(n_X - 1) S_X^2 + (n_Y - 1) S_Y^2}{n_X + n_Y - 2}$
 - Reject if $|T| > t_{n_X + n_Y - 2, \alpha/2}$
