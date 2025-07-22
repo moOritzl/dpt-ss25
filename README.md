@@ -29,7 +29,7 @@ Let $X_1, \dots, X_n \sim \mathcal{N}(\mu, \sigma^2)$, significance level $\alph
 ### 3. One-sided t-test (unknown $\sigma^2$)
 
 - $H_0: \mu \leq \mu_0$, $H_1: \mu > \mu_0$
-- $T = \frac{\bar{X}_n - \mu_0}{S / \sqrt{n}} \sim t_{n-1}$
+- $T = \frac{\bar{X_{n}} - \mu_0}{S / \sqrt{n}} \sim t_{n-1}$
 - Reject if $T > t_{n-1, \alpha}$
 
 ### 4. Two-sided t-test (unknown $\sigma^2$)
