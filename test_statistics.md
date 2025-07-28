@@ -1,7 +1,7 @@
 # Test Statistics
 
 - $Z = \frac{\bar{X}_n - \mu_0}{\sigma / \sqrt{n}}$(z-test, known $\sigma^2$)
-- $T = \frac{\bar{X}_n - \mu_0}{ S / \sqrt{n}}$ (t-test, unknown $\sigma^2$) with $S^2 = \frac{1}{n - 1} \sum_{i = 1}^n (X_i - \bar{X}_n)^2$
+- $T = \frac{\bar{X}_n - \mu_0}{ S / \sqrt{n}}$ (t-test, unknown $\sigma^2$)
 - $C = \frac{(n - 1) S^2}{\sigma_0^2}$($\chi^2$-test for variance)
 
  ---
