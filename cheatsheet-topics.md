@@ -23,13 +23,14 @@
 - Covariance
 - Correlation coefficient
 - Conditional pdf
-- Mode
 - Median
+- Mode
 
 ### Inequalities
 
 - Markov inequality
 - Chebyshev inequality
+- Jensen's inequality
 
 ### Convergence & Limit Theorems
 
@@ -41,21 +42,21 @@
 
 ### Statistical Inference
 
-- [Statistical models](test_statistics.md)
+- Statistical models
 - Likelihood function (incl. log-likelihood)
 - Maximum likelihood estimator (MLE)
     - Biased estimator
     - Unbiased estimator
     - Mean squared error (MSE)
-- Confidence intervals for:
-    - Mean
-    - Proportion
-    - Variance (?)
 - Hypothesis testing
     - Null & alternative hypothesis
     - Type I and II errors
-    - Test statistics
+    - [Test statistics](test_statistics.md)
     - Neyman-Pearson lemma
         - Likelihood ratio
         - Decision rule
         - Power
+- Confidence intervals for:
+    - Mean
+    - Proportion
+    - Variance (?)
