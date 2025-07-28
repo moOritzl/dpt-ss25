@@ -17,7 +17,7 @@
 ### Random Variables & Distributions
 
 - Random variable (RVRV)
-- Probability distributions
+- [Probability distributions](distributions.md)
 - Expectation
 - Variance
 - Covariance
@@ -41,7 +41,7 @@
 
 ### Statistical Inference
 
-- Statistical models
+- [Statistical models](test_statistics.md)
 - Likelihood function (incl. log-likelihood)
 - Maximum likelihood estimator (MLE)
     - Biased estimator
