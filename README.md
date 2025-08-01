@@ -10,7 +10,8 @@ notes are based on the exercises, highlighted problems from the lecturer, and th
 
 ## Exam Preparation Aids
 
-- [**My Cheatsheet**](dpt-cheatsheet.pdf): The actual A4 double-sided handwritten cheatsheet I will use in the exam.
+- [**My Cheatsheet**](dpt-cheatsheet-highlighted.pdf): The actual A4 double-sided handwritten cheatsheet I used in the
+  exam. I highlighted everything that used in the exam.
 - [**Cheatsheet Topics Overview**](cheatsheet-topics.md): A categorized overview of all topics covered on the
   cheatsheet.
 - [**Probability Distributions Summary**](distributions.md): Compact table of relevant distributions (discrete &
